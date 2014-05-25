@@ -1,0 +1,15 @@
+> saved.fit
+
+Call:
+gnm(formula = expdata ~ 1 + Exp(1 + time))
+
+Coefficients:
+              (Intercept)  Exp(. + time).(Intercept)            Exp(1 + .).time  
+                   1.5512                     0.2155                    -1.3053  
+
+Deviance:            0.8167613 
+Pearson chi-squared: 0.8167613 
+Residual df:         98 
+
+> exp(0.2155)
+[1] 1.240482
