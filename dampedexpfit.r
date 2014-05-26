@@ -1,3 +1,5 @@
+library("gnm")
+
 DampedExp <- function(x) {
   list(predictors = list(beta = 1, omega = 1),
        variables = list(substitute(x)),
